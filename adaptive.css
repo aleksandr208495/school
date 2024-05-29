@@ -1,0 +1,388 @@
+@media (max-width:800px) {
+    .footer .contacts .socials {
+        margin: 0;
+        width: 10%;
+        flex-direction: column;
+        display: flex;
+    }
+    .link .linkcard {
+        max-width: 645px;
+        text-decoration: none;
+        margin: 0 auto;
+        color: black;
+        margin-bottom: 50px;
+    }
+    .infobox .card {
+        display: block;
+        max-width: 480px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        text-decoration: none;
+        color: black;
+    }
+    .infobox .left {
+        max-width: 355px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .condbox .card {
+        max-width: 480px;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        display: block;
+        color: black;
+    }
+    .contactsbox .eleccall {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:800px){
+    .brandinfo a {
+        width: 45%;
+        height: 45%;
+        margin: 15px auto;
+        font-size: 13px;
+        line-height: 16.57px;
+        text-align: center;
+    }
+    .brandinfo img {
+        margin: 15px auto;
+        width: 30%;
+        height: 40%;
+    }
+    .brandinfo {
+        justify-content: space-between;
+        align-items: center;
+    }  
+    .navigation {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .navigation ul li {
+        margin-right: 3%;
+        font-size: 13px;
+        padding: 0;
+    }
+    .navigation ul li:last-child{
+        margin-right: 0;
+    }
+    .header{
+        width: 80%;
+    }
+    .navigation ul {
+        list-style: none;
+        font-size: 0;
+        padding: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .mainblock img{
+        display: block;
+        margin: 0 auto;
+        width: 380px;
+        margin-bottom: 20px;
+    }
+    .mainblock {
+        width: 100%;
+        max-width: 480px;
+    }
+    .footer .suggestion h3 {
+        display: block;
+        margin: 0 auto;
+        padding-top: 31px;
+        padding-bottom: 40px;
+        width: 280px;
+        height: 91px;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 23.05px;
+        /* text-align: left; */
+    }
+    .mainblock h2{
+        font-size: 20px;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 380px;
+        margin-bottom: 20px;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .footer .contacts .socials img {
+        padding: 4px;
+        width: 25px;
+    }
+    .image img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    } 
+    .infobox .card img {
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
+    .maincontent .card .text h3 {
+        width: 100%;
+        max-width: 360px;
+        height: 100%;
+        font-size: 16px;
+        margin: 0 auto;
+        font-weight: 400;
+        line-height: 23.05px;
+        margin-top: 0;
+    }
+    .maincontent .card .text {
+        margin-left: 0;
+    }
+    .maincontent{
+        width: 80%;
+    }
+    .maincontent .card{
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+    .news {
+        margin-top: 0px;
+        width: 80%;
+    }
+    .news .newscard .text {
+        margin-left: 0;
+    }
+    .news .newscard .text a {
+        font-size: 25px;
+        line-height: 23.57px;
+        text-align: center;
+    }
+    .news .newscard .text h3 {
+        font-size: 20px;
+        line-height: 24.0px;
+    }
+    .news .newscard .text h4 {
+        font-size: 13px;
+        line-height: 10.05px;
+   
+    }
+    .news .newscard {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .link h1 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 23.57px;
+        text-align: center;
+        padding: 25px;
+    }
+    .link .grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .link .linkcard img {
+        margin-bottom: 15px;
+        max-width: 124px;
+    }
+    .link .linkcard {
+        max-width: 420px;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 50px;
+    }
+    .link .linkcard h3 {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 32.57px;
+        text-align: left;
+        text-align: center;
+        margin: 0;
+        /* margin-bottom: 15px; */
+    }
+    .footer .contacts {
+        display: flex;
+        align-items: center;
+    }
+    .footer .contacts h3 {
+        margin-left:0;
+        width: 300px;
+        height: auto;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12.05px;
+        text-align: left;
+    }
+    .footer .contacts h4 {
+        width: 252px;
+        height: auto;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10.36px;
+        text-align: left;
+    }
+    .footer .contacts .socials {
+        margin: 0;
+    }
+    .infobox .left {
+        max-width: 385px;
+        margin-bottom: 50px;
+    }
+    .infobox .card img {
+        display: block;
+        width: 300px;
+        margin:0 auto;
+        margin-bottom: 20px;
+    }
+    .infobox .card {
+        display: block;
+        max-width: 480px;
+        margin-bottom: 25px;
+        text-decoration: none;
+        color: black;
+    }
+    .infobox {
+        width: 80%;
+        display: block;
+        margin-top: 27px;
+        margin-bottom: 80px;
+    }
+    .infobox .grid {
+        display: block;
+        height: auto;
+        margin-left: 0;
+
+    }
+    .condbox {
+        width: 80%;
+        margin-top: 50px;
+    }
+    .condbox .grid {
+        display: block;
+        grid-template-columns: 500px 500px 500px;
+        margin-left: 0;
+        grid-template-rows: 458px;
+    }
+    .condbox h1 {
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 30.57px;
+        text-align: left;
+    }
+    .condbox .card img {
+        width: 345px;
+        margin-bottom: 20px;
+    }
+    .condbox .card {
+        max-width: 480px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        display: block;
+        color: black;
+    }
+    .condbox .card h2 {
+        width: 367px;
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 29.57px;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+    .condbox h3 {
+        width: 380px;
+        margin-top: 151px;
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24.57px;
+        text-align: center;
+        margin: auto;
+    }
+    .contactsbox h1 {
+        font-size: 21px;
+        line-height: 28.05px;
+        width: 380px;
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    .contactsbox .line h3:first-child {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20.05px;
+        text-align: left;
+        width: 385px;
+    }
+    .contactsbox .line h3 {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20.05px;
+        text-align: center;
+        width: 430px;
+    }
+    .line{
+        margin-top: 50px;
+    }
+    .contactsbox .specialbloc .line h3 {
+        width: 893px !important;
+        margin-left: 0px;
+    }
+    .contactsbox .eleccall h2 {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.05px;
+        text-align: center;
+        width: 400px;
+        display: block;
+        margin-left: 0px;
+    }
+    .contactsbox .eleccall .formline h3:first-child {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20.05px;
+        text-align: left;
+        width: 210px;
+    }
+    .contactsbox .eleccall .formline input {
+        width: 250px;
+        height: 45px;
+        margin: auto 0 auto 0;
+        border-color: #000000;
+        background-color: #FEFAE0;
+        outline: none;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.05px;
+        text-align: center;
+    }
+    .contactsbox .eleccall a {
+        font-family: Inter;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 21.05px;
+        text-align: center;
+        color: black;
+        display: block;
+        width: 360px;
+        margin-top: 33px;
+        margin-left: 0px;
+    }
+    .contactsbox .eleccall button {
+        width: 385px;
+        margin-left: 0px;
+    }
+    .contactsbox .eleccall {
+        margin-left: 0px;
+    }
+}

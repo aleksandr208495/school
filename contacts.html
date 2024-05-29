@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="adaptive.css">
+    
+    <title>Контакты</title>
+    <script src="https://cdn.jsdelivr.net/npm/@hcaptcha/vanilla-hcaptcha"></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="brandinfo">
+            <img src="./img/brandimage.png">
+            <a href="./mainpage.html">МБОУ “РОССОШИНСКАЯ СШ ИМЕНИ ГЕРОЯ СОВЕТСКОГО СОЮЗА И.Ф. БИБИШЕВА</a>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="./mainpage.html">Главная</a></li>
+                <li><a href="./info.html">Сведения</a></li>
+                <li><a href="./conditions.html">Условия обучения</a></li>
+                <li><a href="./contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="block contactsbox">
+        <h1>Муниципальное бюджетное общеобразовательное учреждение<br>
+            "Россошинская средняя школа имени Героя Советского Союза И.Ф.Бибишева"</h1>
+        <div class="line">
+            <h3>Сокращенное наименование образовательной организации*</h3><h3>МБОУ «Россошинская СШ имени Героя Советского Союза И.Ф.Бибишева»</h3>
+            
+        </div>
+        <div class="line">
+            <h3>Адрес местонахождения образовательной организации*</h3><h3>403024, Волгоградская область, Городищенский р-н, п. Степной, ул. Центральная 1</h3>
+        </div>
+        <div class="line">
+            <h3>Контактные телефоны образовательной организации*</h3><h3>8(84468)4-17-14</h3>
+        </div>
+        <div class="line">
+            <h3>Адрес электронной почты образовательной организации</h3><h3>stepnoy1@mail.ru</h3>
+        </div>
+        <div class="line">
+            <h3>Официальная страница Образовательной организации в социальных сетях</h3>            <div class="socials" style="width: 701px;text-align: center;padding-top: 20px;">
+                <a href="https://vk.com/stepnoy1"><img src="./img/vk.png"></a>
+            <a href="https://t.me/stepnoy1"><img src="./img/ok.png"></a>
+        <a href="https://ok.ru/group/70000002236640"> <img src="./img/tg.png"></a>
+            </div>
+        </div>
+        <div class="line">
+            <h3>Директор, учитель</h3><h3>Даньшин Александр Юрьевич<br>88446841714</h3>
+        </div>
+        <div class="line" style="margin-top: 163px;">
+            <h3>Учредители образовательной организации</h3><h3>Администрация Городищенского муниципального района Волгоградской области<br><br>8(84468) 3-38-38<br><br>403003, Волгоградская область, Городищенский район, р. п. Городище, пл. 40 лет Сталинградской битвы, 1.<br><br><a href="http://www.agmr.ru">http://www.agmr.ru</a></h3>
+        </div>
+        <h2>Краснопахаревская ООШ</h2>
+        <div class="specialbloc">
+            <div class="line">
+                <h3>ФИО<br>руководителя</h3><h3>Даньшин Александр Юрьевич</h3>
+            </div>
+            <div class="line">
+                <h3>Адрес</h3><h3>403033, Волгоградская область, Городищенский район, х.Красный пахарь, ул.Центральная, д.19, д.23</h3>
+            </div>
+            <div class="line">
+                <h3>Телефон</h3><h3>884645740</h3>
+            </div>
+            <div class="line">
+                <h3>Адрес сайта</h3><h3>http://site.site</h3>
+            </div>
+            <div class="line">
+                <h3>Электронная почта</h3><h3>Stepnoy1@mail.ru</h3>
+            </div>
+            <div class="line">
+                <h3>Режим работы</h3><h3>понедельник - пятница 7.30-18.00</h3>
+            </div>
+            <div class="line">
+                <h3>График работы</h3><h3>07.30 - 14.00 - 1 смена<br>
+                    12.00 - 16.00 - 2 смена (2-3 классы)</h3>
+            </div>
+        </div>
+        <form id="elcallform" class="eleccall" action="/php/eat.php" method="POST" >
+            <h2>ЭЛЕКТРОННОЕ ОБРАЩЕНИЕ</h2>
+            <div class="formline">
+                <h3>Фамилия *</h3><input id="POST-name" type="text" name="surname" required />
+            </div>
+            <div class="formline">
+                <h3>Имя *</h3><input id="POST-name" type="text" name="name"  required />
+            </div>
+            <div class="formline">
+                <h3>Отчество *</h3><input id="POST-name" type="text" name="patronymic" required />
+            </div>
+            <div class="formline">
+                <h3>Телефон</h3><input id="POST-name" type="number" name="phone" required />
+            </div>
+            <div class="formline">
+                <h3>Адрес электронной почты</h3><input id="POST-name" type="email" name="email" required />
+            </div>
+            <div class="formline">
+                <h3>Текст обращения</h3><textarea name="text" cols="40" rows="5" required></textarea>
+            </div>
+            <a href="https://www.figma.com/exit?url=https%3A%2F%2Fstepnoy1.volgogradschool.ru%2Ffeedback%2Fagreement">Я даю согласие на обработку моих персональных данных</a>
+            <div class="formline">
+                <h3>Согласие *</h3><input class="checkbox" type="checkbox" name="soglasie" required>
+            </div>
+            <div class="formline">
+                <h3>Введите код *</h3><input readonly id="generated-captcha" required />
+            </div>
+            <div id="errors" class="errorbox">
+                
+            </div>
+            <div class="formline">
+                <h3></h3><input type="text" id="input-captcha" required />
+            </div>
+            <button type="submit" onclick="location.href='./mainpage.html';">ОТПРАВИТЬ ОБРАЩЕНИЕ</button>
+
+        </form>
+    </div>
+    <div class="block footer">
+        <div class="navigation">
+            <ul>
+                <li><a href="./mainpage.html">Главная</a></li>
+                <li><a href="./info.html">Сведения</a></li>
+                <li><a href="./conditions.html">Условия обучения</a></li>
+                <li><a href="./contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="suggestion">
+            <h3>Мы хотим узнать, как Вы оцениваете качество работы образовательной организации, в которой Вы, либо Ваш ребенок (дети) учитесь.</h3>
+        </div>
+        <div class="contacts">
+            <div class="socials">
+                <a href="https://vk.com/stepnoy1"><img src="./img/vk.png"></a>
+            <a href="https://t.me/stepnoy1"><img src="./img/ok.png"></a>
+        <a href="https://ok.ru/group/70000002236640"> <img src="./img/tg.png"></a>
+            </div>
+            <h3>Все права защищены.<br>
+                Дата последнего изменения на сайте: 15.04.2024<br>
+                При использовании материалов сайта активная прямая ссылка на источник обязательна
+            </h3>
+            <h4>
+                №1556 в Реестре российского ПО (на основании приказа Министерства цифрового развития, связи и массовых коммуникаций Российской Федерации от 06.09.2016 №426)
+            </h4>
+        </div>
+    </div>
+    <script src="capcha.js"></script>
+</body>
+</html>

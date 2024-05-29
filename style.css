@@ -1,0 +1,852 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    background-color:  #FEFAE0;
+    margin: 0;
+    font-family: Inter;
+}
+header {
+    width: 100%;
+    background-color: red;
+    margin: auto;
+}
+.brandinfo {
+    background-color: #FAEDCD;
+    display: flex;
+}
+.brandinfo img {
+    margin: 16px 59px 16px 75px;
+}
+.brandinfo a {
+    width: 58%;
+    height: 45%;
+    margin-top: 61px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.navigation {
+    background-color: #D4A373;
+    height: 62px;
+    display: flex;
+}
+.navigation ul {
+    margin-left: auto;
+    list-style: none;
+    font-size: 0;
+    padding-top: 20px;
+}
+.navigation ul li {
+    position: relative;
+    padding: 0 49px 0 49px;
+    padding-left: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #FEFAE0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+    margin-right: 204px;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: #FEFAE0;
+}
+.block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainblock {
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+}
+.mainblock h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    text-align: center;
+    margin-top: 61px;
+
+}
+
+.maincontent {
+    margin-top: 97px;
+    width: 79%;
+}
+.maincontent .card {
+    display: flex;
+    margin-top: 67px;
+}
+
+.maincontent .card:first-child {
+    margin-top: 0px;
+}
+.maincontent .card .text {
+    margin-left: 53px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.maincontent .card .text h3 {
+    width: 993px;
+    height: 144px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.maincontent h2 {
+    font-family: Inter;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    text-align: center;
+}
+
+
+
+.maincontent .images {
+
+}
+.maincontent .images img:first-child {
+    padding-top: 0px;
+}
+.maincontent .images img {
+    padding-top: 61px;
+    display: block;
+
+}
+.maincontent .blockcontent {
+
+}
+.maincontent .blockcontent h3 {
+    margin-left: 54px;
+    width: 993px;
+    height: 1130px;
+    display: block;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    text-align: left;
+}
+
+.news {
+    margin-top: 213px;
+    width: 79%;
+}
+.news .newscard {
+    display: flex;
+    margin-top: 67px;
+}
+.news .newscard:first-child {
+    margin-top: 0px;
+}
+.news .newscard .text {
+    margin-left: 53px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.news .newscard .text a {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: left;
+
+}
+.news .newscard .text h3 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    text-align: left;
+    
+
+}
+.news .newscard .text h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+.link {
+    margin-top: 167px;
+    background-color: #FAEDCD;
+}
+.link .grid {
+    display:grid;
+    grid-template-columns: 400px auto auto;
+}
+.link h1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: left;
+    padding: 40px;
+}
+.link .linkcard {
+    max-width: 730px;
+    text-decoration: none;
+    color: black;
+}
+.link .linkcard img {
+    display: block;
+    margin: auto;
+}
+.link .linkcard h3 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: left;
+    text-align: center;
+    
+
+}
+.freephoto {
+
+    margin-top: 77px;
+    /* display: block;
+    text-align: center;
+    --pos-banner-fluid-19__content-padding: 32px 28px 32px 1px; */
+}
+.footer {
+    margin-top: 128px;
+    width: 100%;
+}
+.footer .suggestion {
+    background-color: #FAEDCD;
+}
+.footer .suggestion h3 {
+    display: block;
+    margin: auto;
+    padding-top: 31px;
+    padding-bottom: 89px;
+    width: 1015px;
+    height: 91px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+}
+.footer .contacts {
+    background-color: #CCD5AE;
+    display: flex;
+    height: 215px;
+}
+.footer .contacts .socials {
+    margin: 19px 0 0 111px;
+}
+.footer .contacts .socials img {
+    padding: 7px;
+}
+.footer .contacts h3 {
+    margin-left: 112px;
+    width: 631px;
+    height: 121px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+}
+.footer .contacts h4 {
+    width: 252px;
+    height: 139px;
+    margin-left: auto;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+
+}
+/* info page */
+
+.infobox {
+    width: 79%;
+    display: flex;
+    margin-top: 53px;
+}
+.infobox .left {
+    width: 431px;
+}
+.infobox .left .side-menu {
+    position: relative;
+    padding-bottom: 15px;
+    background: #fbe3ae;
+    border-bottom: 2px solid #ea8120;
+    margin: 18px 15px 20px 12px;
+    background-size: 100%;
+    margin: 0;
+  }
+  .infobox .left .side-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  .infobox .left .side-menu li {
+    position: relative;
+  }
+  .infobox .left .side-menu a {
+    display: block;
+    padding: 20px 0 5px 0;
+    margin: 0 20px;
+    line-height: 16px;
+    color: #dc4616;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    border-top: 1px solid #fdf0d3;
+    border-bottom: 1px solid #ddcca8;
+  }
+  .infobox .left .side-menu a.first {
+    border-top: 0;
+  }
+  .infobox .left .side-menu a.last {
+    border-bottom: 0;
+  }
+  .infobox .left .side-menu .more {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border: 0;
+    background: none;
+    text-align: center;
+    cursor: pointer;
+    color: #dc4616;
+    opacity: 0.8;
+    outline: none;
+  }
+  .infobox .left .side-menu .more span {
+    border-bottom: 1px dashed;
+  }
+  .infobox .left .side-menu .sh-arrow {
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -17px;
+    border-bottom: 14px solid #ea8120;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    z-index: 1;
+  }
+  .infobox .left .side-menu .sh-arrow:after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -15px;
+    border-bottom: 12px solid #fff;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+  }
+  .infobox .left .side-menu.sh-hidden .sh-arrow {
+    bottom: -14px;
+    border-bottom: 0;
+    border-top: 14px solid #ea8120;
+  }
+  .infobox .left .side-menu.sh-hidden .sh-arrow:after {
+    bottom: 2px;
+    border-bottom: 0;
+    border-top: 12px solid #fbe3ae;
+  }
+  .infobox .left .side-menu .cms-action-panel {
+    position: absolute;
+    top: 10px;
+    right: 24px;
+  }
+  
+.sh-hidden .hideable {
+    display: none !important; }
+
+.infobox .grid {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    margin-left: 56px;
+    grid-template-rows: 458px;
+}
+.infobox h1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: left;
+    padding: 40px;
+}
+.infobox .card {
+    max-width: 493px;
+    text-decoration: none;
+    color: black;
+}
+.infobox .card img {
+    display: block;
+    margin: 82px;
+}
+.infobox .card h2 {
+    margin-top: 28px;
+    width: 294px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;    
+    text-align: center;
+    margin: -63px auto;
+}
+
+.infobox .card2 {
+    max-width: 493px;
+    text-decoration: none;
+    color: black;
+}
+.infobox .card2 img {
+    display: block;
+    margin: 82px;
+}
+.infobox .card2 h2 {
+    margin-top: 28px;
+    width: 294px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;    
+    text-align: center;
+    margin: -63px auto;
+}
+
+/* conditions */
+
+.condbox {
+    width: 79%;
+    margin-top: 107px;
+}
+.condbox h1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: left;
+}
+.condbox .grid {
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    margin-left: 56px;
+    grid-template-rows: 458px;
+}
+.condbox .card {
+    max-width: 493px;
+    text-decoration: none;
+    color: black;
+}
+.condbox .card img {
+    display: block;
+    margin: auto;
+}
+.condbox .card h2 {
+    width: 367px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    text-align: center;    
+    margin: 20px auto;
+}
+.condbox h3 {
+    width: 1308px;
+    margin-top: 151px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;    
+    margin: auto;
+
+}
+.condbox h3 a{
+    color: black;
+}
+/* contact */
+
+.contactsbox {
+    width: 79%;
+
+}
+.contactsbox h1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    width: 761px;
+    margin: auto;
+    margin-top: 89px;
+    margin-bottom: 79px;
+
+}
+.contactsbox .line {
+    display: flex;
+}
+.contactsbox h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    width: 308px;
+
+} 
+.contactsbox .specialbloc .line  h3 {
+    width: 893px !important;
+    margin-left: 105px;
+}
+.contactsbox .line h3:first-child {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+    width: 1005px;
+}
+.contactsbox .line h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    width: 701px;
+}
+.contactsbox .line h3 a {
+    color: black;
+}
+.contactsbox .eleccall {
+    margin-left: 105px;
+}
+.contactsbox .eleccall .formline {
+    display: flex;
+    margin-top: 88px;
+}
+.contactsbox .eleccall .formline:first-child {
+    margin-top: 0px;
+}
+.contactsbox .eleccall .formline h3:first-child {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+    width: 423px;
+}
+.contactsbox .eleccall .formline h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    width: 701px;
+}
+.contactsbox .eleccall .formline input {
+    width: 438px;
+    height: 45px;
+    margin: auto 0 auto 0;
+    border-color: #000000;
+    background-color: #FEFAE0;
+    outline: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+}
+.contactsbox .eleccall .formline .checkbox {
+    width: 56px;
+    height: 45px;
+    margin: auto 0 auto 0;
+    border-color: #000000;
+    background-color: #FEFAE0;
+    outline: none;
+}
+.contactsbox .eleccall .formline textarea {
+    width: 438px;
+    height: 121px;
+    margin-top: 25PX;
+    border-color: #000000;
+    background-color: #FEFAE0;
+    outline: none;
+    resize: none;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29.05px;
+}
+.contactsbox .eleccall .errorbox h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    color: red;
+}
+.contactsbox .eleccall h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    width: 538PX;
+    display: block;
+    margin-left: 380px;
+}
+.contactsbox .eleccall a {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    color: black;
+    display: block;
+    width: 435px;
+    margin-top: 33px;
+    margin-left: 421px;
+}
+#generated-captcha {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+
+}
+.contactsbox .eleccall button{
+    width: 476px;
+    height: 51px;
+    background-color: #D4A373;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    color: #FEFAE0;
+    border: none;
+    margin-top: 78px;
+    margin-left: 411px;
+
+}
+
+
+.main-container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-title{
+    font-size: 32px;
+    font-weight: normal;
+    font-family: Inter;
+
+}
+.group{
+    margin-bottom: 80px;
+}
+.org{
+    font-size: 24px;
+    margin: 15px 0;
+    line-height: 29.05px;
+    font-family: Inter;
+}
+.text-obuch{
+    font-size: 24px;
+    margin: 15px 0;
+    line-height: 29.05px;
+    font-family: Inter;
+    text-align: left;
+}
+
+.group-text{
+    font-size: 24px;
+    margin: 15px 0;
+    line-height: 29.05px;
+    font-family: Inter;
+    text-align: left;
+}
+.download{
+    color: blue;
+}
+
+.school-text{
+    font-size: 24px;
+    margin: 7px 0;
+    line-height: 29.05px;
+    text-align: left;
+    font-family: Inter;
+
+}
+.list-item{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    margin-top: 60px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1320px;
+    flex-wrap: wrap;
+}
+.usefullinks .list .item {
+    width: 30%;
+    display: inline-block;
+    padding-bottom: 20px;
+    vertical-align: top;
+    padding-right: 20px;
+    position: relative;
+}
+
+.usefullinks .list .item:before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: -15px;
+    width: 6px;
+    height: 6px;
+    background: #555;
+}
+
+.usefullinks .std-container .in {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #fff;
+    background: #f8eed9;
+}
+
+.usefullinks ul {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.usefullinks .list .item>a {
+    color: #007ad0;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.usefullinks .std-container {
+    padding: 20px;
+}
+
+.section-undermenu a {
+    display: block;
+    padding: 0 20px 10px 40px;
+}
+.section-undermenu ul {
+    list-style: none;
+}
+
+
+.employees-card .img {
+    width: 210px;
+    margin-right: 10px;
+    float: left;
+}
+
+.employees-card .description {
+    text-align: justify;
+}
+
+.employees-card .description .post {
+    color: #8b8c8c;
+}
+
+.page-caption a, .page-caption h1, .page-caption h2, .page-caption p {
+    font-size: 32px;
+    font-weight: normal;
+    font-family: Inter;
+}
+
+.employees-cards-list .list .item {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+    min-height: 175px;
+    vertical-align: top;
+}
+
+.employees-cards-list .list {
+    font-size: 0;
+    line-height: 0;
+}
+
+.employees-card {
+    margin-bottom: 150px;
+}
+
+.employees-cards-list .list .item .description p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 3px;
+}
+
+.list .item img {
+    width: 170px;
+    height: 170px;
+}
+
+.group-item{
+    margin-top: 180px;
+}
+
+.list .item .description p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 3px;
+}
+
+.page-caption{
+    text-align: center;
+    
+}
+
+.employees-cards-list .list .item {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+    min-height: 175px;
+    vertical-align: top;
+}
+
+.page-caption h2 a{
+    text-align: justify;
+}
+.name{
+    text-align: justify;
+}
